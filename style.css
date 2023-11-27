@@ -1,0 +1,245 @@
+
+#carousel img {
+  height: 90vh;
+  width: 10%;
+}
+
+.nav-branding img{
+   height: 70px;
+}
+
+.nav-branding {
+  display: flex;
+  align-items: center;
+}
+
+nav{
+  position: absolute;
+  position: fixed;
+  top: 1px;
+  background: rgba(0, 0, 0, 0.178);
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 0 50px;
+  height: 70px;
+}
+
+#nav-input {
+  width: 700px;
+  background-color: #ebebeb;
+  padding-left: 40px;
+  border: none;
+  font-size: 14px;
+  /* border-radius: 5px; */
+  /* padding-bottom: 10px; */
+}
+
+.login-btn{
+  border: none;
+  background: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+.login-btn a {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+
+.carousel-caption {
+  transform: translateY(50px);
+}
+
+.carousel-caption h5,.carousel-caption p {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.login-btn a:hover {
+  color: black;
+}
+
+.signup-btn {
+  background-color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.signup-btn a {
+  color:black;
+  text-decoration: none;
+}
+
+.signup-btn a:hover {
+  color: #999999;
+}
+
+.hero {
+  text-align: center;
+  color: white;
+  z-index: 100;
+  position: absolute;  
+  bottom: 200px;
+  left: 28%;
+
+}
+
+.hero h1 {
+  font-size: 55px;
+}
+
+.hero h5 {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 40px 0;
+}
+
+.hero button {
+  background-color: white;
+  color: black;
+  padding: 15px 30px;
+  font-size: 25px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  font-family: sans-serif;
+}
+
+.hero button:hover {
+  color: #999999;
+}
+/* 
+#carousel img {
+  filter: brightness(75%);
+} */
+
+
+footer  {
+  background-color: black;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  /* position: fixed; */
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #999999;
+}
+
+footer a:hover {
+  color: white;
+}
+
+#drop-btn {
+  background: none;
+  border: none;
+  color: #999999;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+footer img {
+  height: 25px;
+}
+
+#drop li{
+  padding-left: 15px;
+  font-size: 15px;
+}
+
+#drop li:hover{
+  background: rgba(0, 0, 0, 0.158);
+}
+.imgee {
+  margin:0 10px;
+}
+
+@media (max-width:450px) {
+  #nav-input, .signup-btn{
+    display: none;
+  }
+
+  .login-btn {
+    border: 1px solid white;
+  }
+
+  nav {
+    padding: 0 20px;
+  }
+
+  footer {
+    flex-direction: column;
+    padding: 0 10px;
+    height: 100%;
+    text-align: start;
+    align-items: start;
+  }
+
+  footer a{
+    padding: 10px 0; 
+    width: 100%;
+  }
+
+  
+  
+  .hero  {
+    left: 0;
+    bottom: 400px;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+    padding: 0 100px;
+  }
+
+  .hero h5 {
+    display: none;
+  }
+
+  .hero button {
+    font-size: 15px;
+  }
+
+  .smug{
+   text-align: center;
+   margin-left: 50px;
+   margin-top: 30px;
+  }
+ 
+  .footer-img {
+    display: flex;
+    justify-content: space-between;
+    width: max-content;
+    margin:12px auto;
+  }
+
+
+  .dropup {
+    border-bottom: 1px solid white;
+    width: 100%;
+  }
+
+  .imgee{
+    margin: 0 30px;
+  }
+
+  .line {
+    border-bottom: 1px solid white;
+    width: 100%;
+  }
+}

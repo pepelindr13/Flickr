@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(images/033120190455-by-Henry.2edde7a9\ \(1\).jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+#input2 {
+  width: 300px;
+  padding: 5px 20px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  border: 1px solid rgb(158, 157, 157);
+}
+
+img {
+  height: 20px;
+}
+
+form {
+  background-color: white;
+  padding:15px 30px;
+  text-align: center;
+  border-radius: 5px;
+  max-width: 22rem;
+}
+
+.form-div {
+  width: max-content;
+  margin:150px auto 0 auto;
+}
+
+#btn {
+  height: 40px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.signup {
+  font-size: 15px;
+  
+}
+
+nav {
+  height: 50px;
+  background-color: black;
+  padding-left: 150px;
+  align-items: center;
+  display: flex;
+}
+
+#drop-btn {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  transform: translateX(-10px);
+}
+
+.bottom-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-content a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+span a {
+  text-decoration: none;
+  padding-left: 7px;
+}
+
+#drop {
+  padding: 0 10px;
+}
+
+#lab {
+  font-size: 15px;
+}
+
+@media (max-width:450px) {
+  nav {
+    padding-left: 20px;
+  }
+}

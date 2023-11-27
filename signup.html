@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="signup.css">
+  <title>Ejemplo reCAPTCHA 2.0 con PHP</title>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+<body>
+  <nav class="bg-dark">
+    <img src="images/flickr_logo_dots.7670d27a.svg" alt="">
+  </nav>
+  <div class="form-div">
+    <form action="">
+      <img src="images/flickr-color-svgrepo-com.svg" alt="">
+      <p>Sign up for Flickr</p>
+      <div class="form-floating mb-2">
+        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">First name</label>
+      </div>
+      <div class="form-floating mb-2">
+        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Last name</label>
+      </div>
+      <div class="form-floating mb-2">
+        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Your age</label>
+      </div>
+      <div class="form-floating mb-2">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Email address</label>
+      </div>
+      <div class="form-floating mb-2">
+        <input type="password" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Password</label>
+      </div>
+      <div style="width: 20rem;"><div class="g-recaptcha" data-sitekey="6Le8oq8UAAAAADSyaubiMfcxL1IqnYNDLPHeCKa8"></div></div>
+      <button id="btn" type="button" class="btn btn-primary">Sign up</button>
+      <div>By signing up, you agree with Flickr's <span><a href="#">Terms of Services</a></span> and <span><a href="#">Privacy Policy.</a></span></div>
+      <hr>
+      <div>Already a Flickr member? <span><a href="login.html">Log in here.</a></span></div>
+    </form>
+    <div class="bottom-content">
+      <div class="dropdown">
+        <button id="drop-btn" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          English
+        </button>
+        <ul id="drop" class="dropdown-menu">
+          <li>繁體中文</li>
+          <li>Deutsch</li>
+          <li>Español</li>
+          <li>Français</li>
+          <li>한글</li>
+          <li>Italiano</li>
+          <li>Português</li>
+          <li>Tiếng Việt</li>
+          <li>Bahasa <br> Indonesia</li>
+        </ul>
+      </div>
+      <div>
+        <a href="#">Help</a>
+        <a href="#" style="padding: 0 5px;">Privacy</a>
+        <a href="#">Terms</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

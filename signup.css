@@ -1,0 +1,76 @@
+body {
+  background-image: url(images/033120190455-by-Henry.2edde7a9\ \(1\).jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+nav {
+  padding-left: 130px;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  z-index: 100;
+}
+
+form {
+  text-align: center;
+  max-width: 21.5rem;
+  margin:200px auto 0 auto;
+  background-color: white;
+  padding: 20px;
+  
+
+}
+
+img {
+  height: 20px;
+}
+
+#cap {
+  width: 22rem;
+}
+
+label {
+  font-size: 0.85rem;
+}
+
+#btn {
+  width: 19rem;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+span a {
+  text-decoration: none;
+  color: rgb(0, 110, 255);
+}
+
+.bottom-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-content a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#drop-btn {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  transform: translateX(-10px);
+}
+
+.form-div {
+  width: max-content;
+  margin:150px auto 0 auto;
+}
